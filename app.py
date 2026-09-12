@@ -821,7 +821,7 @@ elif fase == 2:
         e o resultado da combinação linear é:
 
         \[
-        z=0,5
+        b=0,1
         \]
 
         **Determine o valor do bias \(b\).**
@@ -835,10 +835,10 @@ elif fase == 2:
 
     if st.button("VERIFICAR FASE 2"):
 
-        if resposta_numerica(r, 0.5):
+        if resposta_numerica(r, 0.1):
 
             acertou(
-                "Correto! 0,5 = 0,5(2) + (-0,2)(3) + b, portanto b = 0,5."
+                "Correto! 0,5 = 0,5(2) + (-0,2)(3) + b, portanto b = 0,1."
             )
 
         else:
